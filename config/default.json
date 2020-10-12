@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://ilyalupach:il210892il@dev-party.88w5l.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://ilyalupach:il210892il@dev-party.88w5l.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }

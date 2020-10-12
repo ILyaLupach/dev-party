@@ -11,6 +11,9 @@ const PORT = process.env.PORT || 8080
 //connect DB
 connectDB()
 
+// Init Middleware
+app.use(express.json())
+
 app.get('/', (req, res) => res.send('Express + TypeScript Server'))
 
 // Define Routes
